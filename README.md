@@ -26,9 +26,10 @@ You can download these two datasets from [Google Drive](https://drive.google.com
 
 ### Motif Trends
 
+![](img/motifs.png)
+
 The cross topic motifs of the two fields are on the rise, and the number of cross topics of deep learning is far greater than that of COVID-19. In the late stage of the epidemic, the cross trends slowed down and reached convergence. From the end of 2018 to 2019, there was an explosive growth in deep learning domains. Although deep learning has slowed down in recent months, compared with the COVID-19, it still has great development prospects.
 
-![](img/motifs.png)
 
 ### Network Characteristics
 
