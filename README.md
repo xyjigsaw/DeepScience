@@ -4,9 +4,7 @@
 
 In this repo, we choose the domain of **COVID-19** and **deep learning** to predict the trends of the science of science. 
 
-We use the information of papers and fields from [Acemap](https://www.acemap.info/).
-
-It is worth noting that we have also collected papers from the whole academia consisting of 19 subjects (Mathematics, History, Psychology, Economics, Sociology, Art, Geography, Business, Physics, Political science, Philosophy, Biology, Computer science, Materials science, Environmental science, Medicine, Chemistry, Engineering, and Geology) and 292 sub-fields (sub-subjects). 
+We use the information of papers and fields from [Acemap](https://www.acemap.info/). It is worth noting that we have also collected papers from the whole academia consisting of 19 subjects (Mathematics, History, Psychology, Economics, Sociology, Art, Geography, Business, Physics, Political science, Philosophy, Biology, Computer science, Materials science, Environmental science, Medicine, Chemistry, Engineering, and Geology) and 292 sub-fields (sub-subjects). 
 
 To predict the academic trends, we construct a field graph based on citations among papers. Specifically, the papers we crawled have been labeled with fields. Each paper may belong to several fields. We use citation information to link these fields. For example, paper P1 belongs to field F1 and F2, paper P2 belongs to field F2 and F3, also, P1 cites P2. Then, we add edges (F1, F2), (F1, F3), (F2, F2) and (F2, F3), and the weight of each edge is the total number of citations in terms of fields. The ids of nodes can be found on Acemap, for example the id of Business is 2024422753, then, you can find it by visiting https://www.acemap.info/field/2024422753.
 
@@ -62,25 +60,23 @@ In terms of COVID-19, we finds that:
 
 Transfer entropy is a non-parametric statistic measuring the amount of directed (time-asymmetric) transfer of information between two random processes. We use transfer entropy to mine the underlying influence between different fields in the perspective of PageRank. More details can be found in our paper.
 
-![](transfer_entropy.png)
+![](img/transfer_entropy.png)
 
-![](transfer_entropy_cs.png)
+![](img/transfer_entropy_cs.png)
 
 
-If you use this software, please cite it as below.
+If you use this repository, please cite it as below.
 
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-  - family-names: Yi
-    given-names: Xu
-  - family-names: Zhe
-    given-names: Li
-  - family-names: Yihan
-    given-names: Zhang
-title: "DeepScience"
-version: 0.1.1
-date-released: 2022-03-18
+```
+@software{Yi_DeepScience_2022,
+author = {Yi, Xu and Zhe, Li and Yihan, Zhang},
+month = {3},
+title = {DeepScience},
+version = {0.1.0},
+year = {2022}
+}
+```
+
 
 
 

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this repository, please cite it as below."
 authors:
   - family-names: Yi
     given-names: Xu
@@ -8,5 +8,5 @@ authors:
   - family-names: Yihan
     given-names: Zhang
 title: "DeepScience"
-version: 0.1.1
+version: 0.1.0
 date-released: 2022-03-18
